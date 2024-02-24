@@ -75,11 +75,32 @@
             <h3>Projet BIM/Revit</h3>
             <p>Dans cette section, vous découvrirez les projets développés en C# et XAML que j'ai conçus pour améliorer et étendre les fonctionnalités de l'outil de dessin Revit. Ces initiatives reflètent mon engagement à optimiser les processus de conception et de modélisation grâce à des solutions logicielles avancées et personnalisées.</p>
             <p>Le premier module complémentaire, baptisé « Phase Filter Synchroniser », optimise le processus de renommage des filtres de phases en automatisant la tâche en une seule action. L'utilisateur initie le processus en sélectionnant un filtre associé, choisit par la suite le filtre à modifier, puis indique le nouveau nom souhaité. Le logiciel prend alors le relais, exécutant ces modifications de manière efficace. Cette approche minimise considérablement les risques d'erreur, simplifiant et accélérant le processus de renommage.</p>
-            <div class="container-images">
-                <img src="images/PhaseFilterSynchroniser1.jpg" alt="Description de l'image 1">
-                <img src="images/PhaseFilterSynchroniser.jpg" alt="Description de l'image 2">
+            <div id="carouselBIMRevit" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-mdb-target="#carouselBIMRevit" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-mdb-target="#carouselBIMRevit" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <!-- Inner -->
+                <div class="carousel-inner">
+                    <!-- Single item -->
+                    <div class="carousel-item active">
+                        <img src="images/PhaseFilterSynchroniser1.jpg" class="d-block w-100" alt="Phase Filter Synchroniser 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/PhaseFilterSynchroniser.jpg" class="d-block w-100" alt="Phase Filter Synchroniser 2">
+                    </div>
+                </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBIMRevit" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselBIMRevit" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <br>
         </div>
         <p>
             Le deuxième module complémentaire, intitulé « ModelKickOff », est conçu pour faciliter la création rapide de nouvelles maquettes numériques en se basant sur un ensemble prédéfini de critères de sélection. Cet outil avancé automatise non seulement l'initialisation de projets mais configure également avec précision les dimensions des blocs-titres et ajuste les paramètres relatifs au bureau d'office associé à chaque maquette. En rationalisant ces processus initiaux, « ModelKickOff » assure une mise en place efficace et conforme aux standards du projet, permettant ainsi aux équipes de se concentrer sur des aspects plus critiques de la conception et de la modélisation. Selon la région choisi dans les paramètres, les disciplines et la langue d'affichage vont changer.</p>
